@@ -77,7 +77,7 @@ php artisan make:migration add_phone_number_to_users_table
 php artisan migrate
 
 #revert migration
-php artisan migrate:rollb
+php artisan migrate:rollback
 
 
 #popolare il db
