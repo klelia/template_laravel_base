@@ -68,7 +68,7 @@ npm install
 
 # inserisco i dati per il collegamento al db in env
 
-#creo migration
+#creo migration es.
 php artisan make:migration create_nome_tabella_table
 php artisan make:migration update_users_table --table=users
 php artisan make:migration add_phone_number_to_users_table
@@ -82,7 +82,7 @@ php artisan migrate:rollback
 #creare il model (necessario per salvare dati su db con seeder)
 php artisan make:model Nome
 
-#popolare il db
+#popolare il db  es.
 php artisan make:seeder UsersTableSeeder
 
 php artisan db:seed --class=UsersTableSeeder
