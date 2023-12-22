@@ -80,7 +80,7 @@ php artisan migrate
 php artisan migrate:rollback
 
 #creare il model (necessario per salvare dati su db con seeder)
-
+php artisan make:model Nome
 
 #popolare il db
 php artisan make:seeder UsersTableSeeder
@@ -93,8 +93,6 @@ Route::get('/books', [BookController::class, 'index'])->name('books.index');
 # creo controller
 php artisan make:controller NomeController
 
-#creo model
-php artisan make:model Nome
 
 # creo le views relative
 
