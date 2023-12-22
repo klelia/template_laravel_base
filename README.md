@@ -79,6 +79,8 @@ php artisan migrate
 #revert migration
 php artisan migrate:rollback
 
+#creare il model (necessario per salvare dati su db con seeder)
+
 
 #popolare il db
 php artisan make:seeder UsersTableSeeder
